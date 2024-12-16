@@ -11,19 +11,17 @@ Este proyecto contiene una base de datos para practicar consultas SQL. Está dis
     - [Git](https://git-scm.com/).
 
     1.1. Linux: desde terminal introduce los siguientes comandos.
-        ```bash
-        # Docker
-        sudo apt update
-        sudo apt install docker.io docker-compose
-        sudo systemctl start docker
-        sudo systemctl enable docker
 
-        # Git
-        sudo apt install git
+    ```bash
+    sudo apt update
+    sudo apt install docker.io docker-compose
+    sudo systemctl start docker
+    sudo systemctl enable docker
 
-        # Anaconda
-        conda env create -file config/python-environment.yml
-        ```
+    sudo apt install git
+    
+    conda env create -file config/python-environment.yml
+    ```
 
     1.2. Windows: accede a la página oficial, descarga los instaladores y efectúa la instalación. Abre la aplicación Docker Desktop.
 
